@@ -1,0 +1,10 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/GoogleSignIn/Frameworks"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/AppAuth" "${PODS_ROOT}/Headers/Public/GTMAppAuth" "${PODS_ROOT}/Headers/Public/GTMSessionFetcher" "${PODS_ROOT}/Headers/Public/IQKeyboardManager" "${PODS_ROOT}/Headers/Public/MJRefresh" "${PODS_ROOT}/Headers/Public/SDCycleScrollView" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/SVProgressHUD"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/AppAuth" "${PODS_CONFIGURATION_BUILD_DIR}/GTMAppAuth" "${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher" "${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManager" "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh" "${PODS_CONFIGURATION_BUILD_DIR}/SDCycleScrollView" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage" "${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"AppAuth" -l"GTMAppAuth" -l"GTMSessionFetcher" -l"IQKeyboardManager" -l"MJRefresh" -l"SDCycleScrollView" -l"SDWebImage" -l"SVProgressHUD" -framework "CoreGraphics" -framework "CoreText" -framework "Foundation" -framework "GoogleSignIn" -framework "ImageIO" -framework "LocalAuthentication" -framework "MobileCoreServices" -framework "QuartzCore" -framework "SafariServices" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -weak_framework "AuthenticationServices"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
