@@ -149,8 +149,6 @@
 		A255CBCA23823DEC00DA408C /* RechargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A255CBC923823DEC00DA408C /* RechargeViewController.m */; };
 		A255CBCD23823E9900DA408C /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A255CBCC23823E9900DA408C /* MessagesViewController.m */; };
 		A255CBD023823EA600DA408C /* InstallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A255CBCF23823EA600DA408C /* InstallViewController.m */; };
-		A255CBD3238245E400DA408C /* personal_data_background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A255CBD1238245E400DA408C /* personal_data_background@3x.png */; };
-		A255CBD4238245E400DA408C /* personal_data_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A255CBD2238245E400DA408C /* personal_data_background@2x.png */; };
 		A255CBDB23825EFB00DA408C /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A255CBDA23825EFB00DA408C /* AboutUsViewController.m */; };
 		A255CBE823827C2100DA408C /* RechargeTypeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A255CBE723827C2100DA408C /* RechargeTypeButton.m */; };
 		A255CBEB23827C9800DA408C /* KoinTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A255CBEA23827C9800DA408C /* KoinTypeModel.m */; };
@@ -663,8 +661,6 @@
 		A255CBCC23823E9900DA408C /* MessagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
 		A255CBCE23823EA600DA408C /* InstallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstallViewController.h; sourceTree = "<group>"; };
 		A255CBCF23823EA600DA408C /* InstallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstallViewController.m; sourceTree = "<group>"; };
-		A255CBD1238245E400DA408C /* personal_data_background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "personal_data_background@3x.png"; path = "../../../../../UI/漫画(2)/切图/我的/personal_data_background@3x.png"; sourceTree = "<group>"; };
-		A255CBD2238245E400DA408C /* personal_data_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "personal_data_background@2x.png"; path = "../../../../../UI/漫画(2)/切图/我的/personal_data_background@2x.png"; sourceTree = "<group>"; };
 		A255CBD923825EFB00DA408C /* AboutUsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
 		A255CBDA23825EFB00DA408C /* AboutUsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
 		A255CBE623827C2100DA408C /* RechargeTypeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RechargeTypeButton.h; sourceTree = "<group>"; };
@@ -2269,8 +2265,6 @@
 				A2C561E3239B3D9C00D506DB /* my_reading_preference@3x.png */,
 				A2C561E1239B3D9B00D506DB /* my_reading_record@2x.png */,
 				A2C561E0239B3D9B00D506DB /* my_reading_record@3x.png */,
-				A255CBD2238245E400DA408C /* personal_data_background@2x.png */,
-				A255CBD1238245E400DA408C /* personal_data_background@3x.png */,
 				A255EF992383C0440043A06B /* reading_preference_background@2x.png */,
 				A255EF982383C0430043A06B /* reading_preference_background@3x.png */,
 				A255EF932383C0230043A06B /* reading_preference_female@2x.png */,
@@ -2547,7 +2541,6 @@
 				A255EF6823838D9B0043A06B /* daily_attendance_receive@2x.png in Resources */,
 				A22599612384E12D00F928E1 /* cartoon_settings@3x.png in Resources */,
 				A2CDB846238BA9D100BAB415 /* vip_triangle@2x.png in Resources */,
-				A255CBD4238245E400DA408C /* personal_data_background@2x.png in Resources */,
 				A22599AC23854DE000F928E1 /* anakrusa_2@2x.png in Resources */,
 				A2C2FF6B2388E9C400C4AA46 /* cartoon_to_top@2x.png in Resources */,
 				A27B147223A091BE0047FAE4 /* read_loading.gif in Resources */,
@@ -2733,7 +2726,6 @@
 				A22A0E6E237E6EC100C9451D /* title_praise_gray@3x.png in Resources */,
 				A2CDB82C238B9C1C00BAB415 /* vip_discount@2x.png in Resources */,
 				A255EFFB2383FC910043A06B /* list_positive_sequence@2x.png in Resources */,
-				A255CBD3238245E400DA408C /* personal_data_background@3x.png in Resources */,
 				A2CDB83A238B9EFE00BAB415 /* vip_barrage_image@3x.png in Resources */,
 				A2C5627F239E2C3800D506DB /* UMCommonLog.bundle in Resources */,
 				A225995D2384E12D00F928E1 /* cartoon_last_chapter@2x.png in Resources */,
@@ -3094,10 +3086,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = Comic/Pulaukomik.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = 24M78764G4;
+				DEVELOPMENT_TEAM = XT4M679P6B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3111,7 +3103,7 @@
 					"$(PROJECT_DIR)/Comic/Libs/ThirdLibs/UMSDK/share/share_ios_6.9.6/SocialLibraries/Facebook",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/vision/Desktop/漫画/Comic/Comic/ComicPrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Comic/ComicPrefixHeader.pch";
 				INFOPLIST_FILE = Comic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3124,9 +3116,9 @@
 					"$(PROJECT_DIR)/Comic/Libs/ThirdLibs/UMSDK/share/share_ios_6.9.6/SocialLibraries/WhatsApp",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.shushan.comic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comic.vision;
 				PRODUCT_NAME = Pulaukomik;
-				PROVISIONING_PROFILE_SPECIFIER = ComicDevProfile;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -3138,10 +3130,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = Comic/Pulaukomik.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = 24M78764G4;
+				DEVELOPMENT_TEAM = XT4M679P6B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3155,7 +3147,7 @@
 					"$(PROJECT_DIR)/Comic/Libs/ThirdLibs/UMSDK/share/share_ios_6.9.6/SocialLibraries/Facebook",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/vision/Desktop/漫画/Comic/Comic/ComicPrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Comic/ComicPrefixHeader.pch";
 				INFOPLIST_FILE = Comic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3168,9 +3160,9 @@
 					"$(PROJECT_DIR)/Comic/Libs/ThirdLibs/UMSDK/share/share_ios_6.9.6/SocialLibraries/WhatsApp",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.shushan.comic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comic.vision;
 				PRODUCT_NAME = Pulaukomik;
-				PROVISIONING_PROFILE_SPECIFIER = ComicAppStoreProfile;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
